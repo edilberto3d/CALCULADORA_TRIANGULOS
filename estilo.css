@@ -1,0 +1,9 @@
+img{
+    width: 70px;
+    height: 70px;
+}
+body{
+    background-color: antiquewhite;
+text-align: center;
+flex-direction: column;
+}
