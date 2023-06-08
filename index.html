@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edilberto</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/triangulo.js"></script>
+</head>
+<body>
+    
+        <div>
+            <h1>TRIANGULOS</h1>
+        </div>
+        <img src="/css/Triangle.Equilateral.svg.png"/>
+        <img src="/css/escal.jpg"/>
+        <img src="/css/v4-460px-Construct-an-Isosceles-Triangle-Step-5Bullet1.jpg.jpeg"/>
+        
+        <div>
+            <input type="number" placeholder="Insertar lado" required name="v1" id="v1" onblur="valor1()" value="0">
+            <br>
+        </div>
+        <di>
+            <br>
+        <input type="number" placeholder="Insertar lado" required name="v2" id="v2" onblur="valor2()" value="0">
+    </di>
+    <div>
+        <br>
+        <input type="number" placeholder="Insertar lado" required name="v3" id="v3" value="0" onblur="valor3()">    
+    </div>
+    <div>
+        <br>
+        <button id="peri" name="peri" onclick="PERIMETRO()">PERIMETRO</button>
+        <button id="are" onclick="AREA()">AREA</button>
+        <button id="fig" onclick="tipofigura()">TIPO FIGURA</button>
+        <button id="elim" onclick="eliminar()">ELIMINAR</button>
+    </div>
+    <h4 id="mostrar"></h4>
+    
+</body>
+</html>
